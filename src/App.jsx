@@ -26,7 +26,7 @@ const App = () => {
     <div>
       {error ? ( // If the 'error' state is not null
         <div>
-          <h2>Error</h2>
+          <h2>Data fetching failed...</h2>
           <p>{error}</p> {/* Display the error message */}
         </div>
       ) : (
